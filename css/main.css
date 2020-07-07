@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* FONTS */
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-bottom: 60px;
+}
+.top-bar {
+    padding: 24px 0;
+}
+
+.top-bar__logo {
+
+}
+
+.top-bar__menu {
+    list-style-type: none;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;            /*Thiết lập hướng chính*/
+    flex-wrap: wrap;                /*Thiết lập chế độ wrap, khi các phần tử vượt qua kích thước hướng chính*/
+    justify-content: flex-end;      /*Căn chỉnh nội dung bên trong container có flexbox*/
+    align-items: stretch;           /*Căn chỉnh phần tử con theo hướng vuông góc hướng chính*/
+    align-content: stretch;   
+}
+
+.top-bar__menu > li {
+    margin-left: 36px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #414042;
+}
+
+.main-slider {
+    background: blueviolet;
+}
+
+.main-slider__container {
+    padding: 0;
+}
+.main-slider__container > img {
+    width: 100%;
+    height: 678px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction-project {
+
+}
+
+.introduction-project__text {
+
+}
+
+.introduction-project__text__big-title {
+    width: 100%;
+    height: 61px;
+    background: #0066b3;
+    padding-top: 6px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.introduction-project__text__big-title > span {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.introduction-project__text__medium-title {
+    margin-bottom: 32px;
+    text-align: justify;
+    /* text-justify: inter-word; */
+}
+
+.introduction-project__text__medium-title > span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.introduction-project__image {
+    
+}
+
+.introduction-project__image > img {
+    width: 100%;
+    height: 538px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overview-project {
+    background-color: #e8e8e8;
+    padding: 65px 0;
+}
+
+.overview-project__big-title {
+    margin-bottom: 55px;
+
+}
+
+.overview-project__big-title__line {
+    padding-top: 12px;
+
+}
+
+.overview-project__big-title__line > img {
+    width: 100%;
+}
+
+.overview-project__big-title__text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1565b0;
+}
+
+.overview-project__content {
+    
+}
+
+.overview-project__content__image > img {
+    width: 100%;
+    height: 445px;
+}
+
+.overview-project__content__text {
+    display: flex;
+    line-height: 36px;
+}
+
+.overview-project__content__text__icon {
+    margin-right: 14px;
+}
+
+.overview-project__content__text__icon > img {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.overview-project__content__text__label {
+    text-align: justify;
+
+}
+.overview-project__content__text__label > span {
+    font-size: 14px;
+}
+
+.overview-project__content__text__label__bold {
+    font-weight: bold;
+}
