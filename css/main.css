@@ -199,6 +199,7 @@ header {
 }
 
 .position-project__big-title {
+    margin-bottom: 20px;
 
 }
 
@@ -220,10 +221,15 @@ header {
     letter-spacing: 2px;
 }
 
-.position-project_sub-title  {
+.position-project__sub-title  {
     font-size: 14px;
     color: #ffffff;
     font-weight: Regular;
+    margin-bottom: 35px;
+}
+
+.position-project__list-utilities {
+    margin-bottom: 25px;
 }
 
 .position-projec__block__1 {
@@ -234,6 +240,7 @@ header {
 
 .position-projec__block__1__component {
     position: relative;
+    margin-bottom: 15px;
     /* width: 228px; */
 }
 
