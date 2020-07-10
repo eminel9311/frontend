@@ -54,9 +54,9 @@ header {
 
 .main-slider__container {
     width: 100%;
-    min-height: 678px;
-
-    background-image: url('../images/banner_2.png');
+    /* min-height: 678px; */
+    min-height: 904px;
+    background-image: url('../images/banner_3.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,6 +237,7 @@ header {
 .position-projec__block__1__component {
     position: relative;
     margin-bottom: 15px;
+    margin-left: 10px;
     /* width: 228px; */
 }
 
@@ -294,7 +295,7 @@ header {
 }
 
 .featured-gadget-project__right {
-
+    margin-left: 10px;
 }
 
 .featured-gadget-project__right__big-title {
