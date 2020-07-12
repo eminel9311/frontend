@@ -407,6 +407,10 @@ header {
     text-align: center;
 }
 
+.construction-ground-project__diagram1 > img {
+    width: 100%;
+}
+
 .image-apartment {
     width: 100%;
     padding: 65px 0;
@@ -414,12 +418,15 @@ header {
 }
 
 .image-apartment__big-title {
-
+    margin-bottom: 40px;
 }
 
 .image-apartment__big-title > .line {
     margin-top: 10px;
+}
 
+.image-apartment__big-title > .line > img {
+    width: 100%;
 }
 
 .image-apartment__big-title > .text {
@@ -469,24 +476,31 @@ header {
 .image-apartment__image-block__title > .medium {
     display: block;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
-/* .image-apartment__image-block__block-center > .living-room {
+.image-apartment__image-block__block-center {
+    width: 100%;
+    min-height: 535px;
+
+}
+
+.image-apartment__image-block__block-center__main-image {
     width: 100%;
     min-height: 386px;
     background-image: url(../images/living-room.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: aquamarine;
+    position: relative;
+}
+.apartment-slider-image {
+    margin-top: 17px;
+}
 
-} */
-.image-apartment__image-block__block-center {
+.apartment-slider-image > .col-4 > img {
     width: 100%;
-    min-height: 535px;
-    background-color: aquamarine;
-
+    min-height: 131px;
 }
 
 .image-apartment__image-block__block-right {
@@ -499,3 +513,106 @@ header {
     position: relative;
 }
 
+.project-news {
+    width: 100%;
+    padding: 65px 0;
+}
+
+.project-news__big-title {
+    margin-bottom: 50px;
+}
+
+.project-news__big-title > .line {
+    margin-top: 10px;
+}
+.project-news__big-title > .line > img {
+    width: 100%;
+
+}
+
+.project-news__big-title > .text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1565b0;
+    text-align: center;
+}
+
+.project-news__list-news {
+
+}
+.news-component {
+    width: 100%;
+    min-height: 504px;
+    padding: 13px;
+}
+
+.news-component > img {
+    width: 100%;
+}
+
+.news-component > .title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+}
+.news-component .quickview {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    text-align: justify;
+    /* margin-bottom: 25px;; */
+
+}
+.news-component > .detail-btn {
+    max-width: 172px;
+    min-height: 42px;
+    background-color: #009a4f;
+    padding: 9px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+.info-contact {
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/info-contact-background.png);
+    padding: 108px 0 75px 0;
+    min-height: 563px;
+
+}
+
+
+.footer {
+    width: 100%;
+    min-height: 80px;
+    background-color: #0066b3;
+    padding: 30px 0;
+}
+
+.footer > .copy-right {
+    text-align: center;
+}
+
+.footer > .copy-right > span {
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.shadow {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+  
