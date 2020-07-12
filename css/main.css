@@ -155,9 +155,8 @@ header {
 
 .overview-project__content__image > img {
     width: 100%;
-    height: 445px;
+    max-height: 445px;
    
-
 }
 
 .overview-project__content__text {
@@ -345,9 +344,19 @@ header {
     padding: 65px 0;
 }
 
+.construction-ground-project__big-title {
+}
+
 .construction-ground-project__big-title > .line {
     margin-top: 10px;
+}
 
+.construction-ground-project__big-title > .line-left {
+    padding-right: 0;
+}
+
+.construction-ground-project__big-title > .line-right {
+    padding-left: 0;
 }
 
 .construction-ground-project__big-title > .line > img {
@@ -360,3 +369,73 @@ header {
     color: #1565b0;
     text-align: center;
 }
+
+.construction-ground-project__link {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.construction-ground-project__link > .col {
+    /* padding: 0; */
+    padding-left: 0;
+}
+
+.construction-ground-project__link__btn {
+    width: 100%;
+    height: 38px;
+    background-color: #e8e8e8;
+    padding: 7px 0;
+    text-align: center;
+    color: #242424;
+    cursor: pointer;
+
+}
+
+.construction-ground-project__link__btn > span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #009a4f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.construction-ground-project__diagram1 {
+    text-align: center;
+}
+
+.image-apartment {
+    width: 100%;
+    padding: 65px 0;
+    background-color: #e8e8e8;
+}
+
+.image-apartment__big-title {
+
+}
+
+.image-apartment__big-title > .line {
+    margin-top: 10px;
+
+}
+
+.image-apartment__big-title > .text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1565b0;
+    text-align: center;
+}
+
+.image-apartment__image-block {
+
+}
+
+.image-apartment__image-block__block-left {
+    width: 100%;
+    height: 535px;
+    background-color: aqua;
+    background-image: url('/images/kitchen.png');
+}
+
