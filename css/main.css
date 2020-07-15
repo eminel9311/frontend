@@ -580,7 +580,7 @@ header {
     cursor: pointer;
 }
 
-.info-contact {
+.info-contact-company {
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -588,9 +588,40 @@ header {
     background-image: url(../images/info-contact-background.png);
     padding: 108px 0 75px 0;
     min-height: 563px;
-
 }
 
+.big-title__bold {
+    font-weight: bold;
+}
+
+.big-title__medium > span {
+    font-weight: lighter;
+}
+
+.info-contact-company__info > .big-title > .line-6 {
+    text-align: left;
+}
+
+.info-contact-company__info > .big-title > .line-6 > img {
+    width: 100%;
+}
+
+
+
+.info-contact-company__info {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.big-title > .info-component {
+    font-weight: lighter;
+}
+.info-component {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .footer {
     width: 100%;
