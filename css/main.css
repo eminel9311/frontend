@@ -653,3 +653,34 @@ header {
     box-shadow:         3px 3px 5px 6px #ccc;
   }
   
+  @media only screen and (max-width: 768px) {
+   .introduction-project__text {
+      margin-right: 0;
+   }
+   .introduction-project__image {
+      margin-left: 0;
+   }
+   .overview-project__content__image {
+     margin-right: 0;
+   }
+   .overview-project__content__text {
+     margin-left: 0;
+   }
+   .position-projec__block__1__component {
+     margin-left: 20px;
+   }
+   .position-project__image-highlights__1 {
+     margin-right: 0;
+     margin-bottom: 10px;
+   }
+   .position-project__image-highlights__2 {
+     margin-left: 0;
+   }
+   .featured-gadget-project__right {
+     margin-left: 0;
+   }
+   .construction-ground-project__link {
+     width: 100%;
+   }
+  }
+  
